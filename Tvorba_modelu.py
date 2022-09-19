@@ -25,7 +25,7 @@ class model:
         # Vytváří globální proměnnou s daty pro další funkce/metody
         
         global data_all
-        data_all = pandas.read_excel("Data_2018.xlsx")
+        data_all = pandas.read_excel("data_2018.xlsx")
 
     def basic_model():
         # Vytvoří základní model metodou nejmenších čtverců/lineární regrese
